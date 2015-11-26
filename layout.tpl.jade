@@ -1,0 +1,16 @@
+
+.flexbox
+	.margin
+		.main
+			a( href="/" )
+				img( src="/images/Thinker-micro.png", alt="Thinker Icon" ).icon
+			.pagecontent
+				+Template.dynamic(template=content)
+
+		nav.mainnav
+			a( href="/" ) home
+			a( href="about" ) about
+			a( href="contact" ) contact
+			a( href="/demo" ) demo
+			a( href="http://thinkerapp.blogspot.com" ) blog
+	

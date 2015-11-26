@@ -1,0 +1,115 @@
+
+
+.homeLink
+	position absolute
+	z-index 1
+	margin 10px 
+
+
+
+
+.MenuRoot
+	position absolute
+	z-index 2
+
+.menuItem
+	position absolute
+	cursor pointer
+
+.menuItem .title
+	display none
+	
+.menuItem.hover
+	z-index 100
+
+.menuItem .symbol
+	position absolute
+	left -8px
+	top -8px
+	width 16px
+	height 16px
+	
+	border-radius 16px
+	box-shadow 1px 1px 2px #333
+	z-index 3
+	
+.menuItem.hover .symbol
+	position absolute
+	left -11px
+	top -11px
+	width 22px
+	height 22px
+
+.menuItem .tip
+	color #333
+	background white
+	font-size 12px
+	position absolute
+	right -8px
+	top -8px
+	height 12px
+	padding 2px
+	padding-left 8px
+	padding-right 30px
+	white-space nowrap
+	pointer-events none
+
+	border-radius 16px
+	box-shadow 1px 1px 2px #333	
+
+	display none	
+
+.menuItem.hover .tip
+	display block
+	
+.editForm
+	position absolute
+	z-index 4
+	
+	width 150px
+	height 100px
+	
+	margin-left -75px
+	margin-top -33px
+	text-align center
+	
+	opacity .95
+
+.editField
+	border none
+	
+	display table-cell
+	text-align center
+	vertical-align middle
+	
+	padding-top 5px
+	
+	background-color hsl( 0, 0%, 95% )
+	border-radius 4px
+	box-shadow inset 1px 1px 3px #777
+	font-size 10pt
+	
+	width 150px
+	height 60px
+
+	
+.editSubmit
+	text-align center
+	width 50px
+	height 20px
+	margin 10px auto
+	
+	left 50%
+	
+pre.data
+	position absolute
+	opacity .5
+	font-family "Courier New", Courier, monospace
+	pointer-events none
+	display none
+
+.preload
+	display none
+	
+	
+	
